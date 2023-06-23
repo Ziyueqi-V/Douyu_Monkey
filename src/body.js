@@ -25,6 +25,8 @@
     '.Title-anchorHot',
     // 房间信息, 友邻
     '.Title-anchorFriendWrapper',
+    // 房间信息, 商品橱窗
+    '.Title-anchorLocation',
     // 礼物栏
     '#js-player-toolbar .ToolbarActivityArea',
     '#js-player-toolbar .PlayerToolbar-GiftWrap',
