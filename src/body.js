@@ -27,6 +27,10 @@
     '.Title-anchorFriendWrapper',
     // 房间信息, 商品橱窗
     '.Title-anchorLocation',
+    // 房间信息, 成就点
+    '.Title-sharkWeight',
+    // 房间信息, 工会
+    '.SociatyLabel',
     // 礼物栏
     '#js-player-toolbar .ToolbarActivityArea',
     '#js-player-toolbar .PlayerToolbar-GiftWrap',

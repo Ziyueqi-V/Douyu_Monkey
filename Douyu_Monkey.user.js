@@ -2,7 +2,7 @@
 // @name         Douyu_Monkey
 // @name:cn      斗鱼猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.8
+// @version      0.0.9
 // @description  douyu beautify css injection script
 // @author       Sherlock-V
 // @match        https://douyu.com
@@ -43,6 +43,10 @@
     '.Title-anchorFriendWrapper',
     // 房间信息, 商品橱窗
     '.Title-anchorLocation',
+    // 房间信息, 成就点
+    '.Title-sharkWeight',
+    // 房间信息, 工会
+    '.SociatyLabel',
     // 礼物栏
     '#js-player-toolbar .ToolbarActivityArea',
     '#js-player-toolbar .PlayerToolbar-GiftWrap',
