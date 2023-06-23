@@ -2,10 +2,10 @@
   'use strict';
 
   // Your code here...
-  const vistopiaCSS = `
+  const cssText = `
   /* CSS_PLACEHOLDER */
   `;
-  GM_addStyle(vistopiaCSS);
+  GM_addStyle(cssText);
 
   const style = document.createElement('style')
   const hides = [

@@ -2,7 +2,7 @@
 // @name         Douyu_Monkey
 // @name:cn      豆瓣猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.1
+// @version      0.0.2
 // @description  douyu beautify css injection script
 // @author       Sherlock-V
 // @match        https://douyu.com
@@ -16,12 +16,12 @@
   'use strict';
 
   // Your code here...
-  const vistopiaCSS = `
+  const cssText = `
   .layout-Player-barrage.layout-Player-barrage {
   top: 0;
 }
   `;
-  GM_addStyle(vistopiaCSS);
+  GM_addStyle(cssText);
 
   const style = document.createElement('style')
   const hides = [
