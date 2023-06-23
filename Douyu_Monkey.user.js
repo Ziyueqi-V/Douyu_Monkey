@@ -2,7 +2,7 @@
 // @name         Douyu_Monkey
 // @name:cn      斗鱼猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.4
+// @version      0.0.5
 // @description  douyu beautify css injection script
 // @author       Sherlock-V
 // @match        https://douyu.com
@@ -38,7 +38,7 @@
     // 房间信息, 活动
     '#js-player-title > div.Title > div.Title-roomInfo > div:nth-child(3)',
     // 房间信息, 热度
-    'Title-anchorHot',
+    '.Title-anchorHot',
     // 礼物栏
     '#js-player-toolbar .ToolbarActivityArea',
     '#js-player-toolbar .PlayerToolbar-GiftWrap',
