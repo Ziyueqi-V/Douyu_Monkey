@@ -2,7 +2,7 @@
 // @name         Douyu_Monkey
 // @name:cn      斗鱼猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.9
+// @version      0.0.10
 // @description  douyu beautify css injection script
 // @author       Sherlock-V
 // @match        https://douyu.com
@@ -25,6 +25,8 @@
 
   const style = document.createElement('style')
   const hides = [
+    // 鱼乐盛典
+    '.HeaderNav',
     // 付费礼物区
     // 'div.PlayerToolbar:first-child',
     // 房间活动

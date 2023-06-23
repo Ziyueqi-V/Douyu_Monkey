@@ -9,6 +9,8 @@
 
   const style = document.createElement('style')
   const hides = [
+    // 鱼乐盛典
+    '.HeaderNav',
     // 付费礼物区
     // 'div.PlayerToolbar:first-child',
     // 房间活动
