@@ -1,0 +1,11 @@
+{
+  "ext": "js,scss",
+  "watch": [
+    "src"
+  ],
+  "ignore": [
+    "src/assets",
+    "dist"
+  ],
+  "exec": "npm run build"
+}

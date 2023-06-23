@@ -1,0 +1,168 @@
+$background-color: #1e1e1e;
+$area-color: #252526;
+$menu-color: #333333;
+$font-color: rgba(255, 255, 255, 0.81);
+$special-font-color: rgba(229, 148, 65, 0.9);
+$link-color: #000;
+$border-color: rgba(117, 116, 116, 0.8);
+
+$app-frame: #1f1f1f;
+$content-component: #141414;
+$page-container: #000000;
+
+// 背景色
+$deepGray: #121212;
+
+// 文字
+$title: rgba(#fff, .85);
+$primaryText: rgba(#fff, .65);
+$secondaryText: rgba(#fff, .45);
+$disable: rgba(#fff, .30);
+$link: rgba(#177ddc, 1);
+
+
+// 主题色
+
+// 薄雾
+$dustRed-0: rgb(43, 18, 21);
+$dustRed-1: rgb(67, 21, 24);
+$dustRed-2: rgb(89, 24, 28);
+$dustRed-3: rgb(121, 26, 30);
+$dustRed-4: rgb(169, 28, 35);
+$dustRed-5: rgb(212, 32, 41);
+$dustRed-6: rgb(231, 71, 73);
+$dustRed-7: rgb(243, 115, 112);
+$dustRed-8: rgb(248, 159, 153);
+$dustRed-9: rgb(249, 200, 194);
+
+// 火山
+$volcano-0: rgb(43, 22, 17);
+$volcano-1: rgb(66, 28, 17);
+$volcano-2: rgb(87, 38, 21);
+$volcano-3: rgb(124, 48, 24);
+$volcano-4: rgb(169, 61, 23);
+$volcano-5: rgb(215, 73, 27);
+$volcano-6: rgb(232, 111, 64);
+$volcano-7: rgb(243, 148, 106);
+$volcano-8: rgb(248, 182, 147);
+$volcano-9: rgb(250, 212, 189);
+
+// 日暮
+$sunset-orange-0: rgb(43, 29, 18);
+$sunset-orange-1: rgb(67, 41, 16);
+$sunset-orange-2: rgb(88, 55, 20);
+$sunset-orange-3: rgb(123, 73, 20);
+$sunset-orange-4: rgb(169, 98, 20);
+$sunset-orange-5: rgb(215, 121, 21);
+$sunset-orange-6: rgb(233, 154, 61);
+$sunset-orange-7: rgb(244, 183, 102);
+$sunset-orange-8: rgb(248, 207, 141);
+$sunset-orange-9: rgb(250, 227, 183);
+
+// 金盏花
+$calendula-gold-0: rgb(42, 33, 17);
+$calendula-gold-1: rgb(67, 48, 16);
+$calendula-gold-2: rgb(88, 66, 19);
+$calendula-gold-3: rgb(124, 88, 21);
+$calendula-gold-4: rgb(170, 118, 19);
+$calendula-gold-5: rgb(216, 149, 19);
+$calendula-gold-6: rgb(231, 179, 57);
+$calendula-gold-7: rgb(243, 205, 98);
+$calendula-gold-8: rgb(248, 223, 139);
+$calendula-gold-9: rgb(250, 237, 182);
+
+// 日出
+$sunrise-yellow-0: rgb(43, 38, 17);
+$sunrise-yellow-1: rgb(67, 58, 15);
+$sunrise-yellow-2: rgb(88, 80, 17);
+$sunrise-yellow-3: rgb(123, 109, 20);
+$sunrise-yellow-4: rgb(169, 148, 19);
+$sunrise-yellow-5: rgb(215, 188, 19);
+$sunrise-yellow-6: rgb(232, 213, 56);
+$sunrise-yellow-7: rgb(243, 234, 97);
+$sunrise-yellow-8: rgb(248, 243, 139);
+$sunrise-yellow-9: rgb(250, 249, 182);
+
+// 青柠
+$lime-0: rgb(31, 38, 18);
+$lime-1: rgb(46, 59, 15);
+$lime-2: rgb(60, 78, 18);
+$lime-3: rgb(82, 108, 17);
+$lime-4: rgb(110, 147, 16);
+$lime-5: rgb(138, 186, 16);
+$lime-6: rgb(169, 209, 51);
+$lime-7: rgb(200, 231, 93);
+$lime-8: rgb(229, 248, 140);
+$lime-9: rgb(240, 250, 180);
+
+// 极光绿
+$polar-green-0: rgb(22, 35, 18);
+$polar-green-1: rgb(28, 54, 17);
+$polar-green-2: rgb(38, 71, 21);
+$polar-green-3: rgb(47, 96, 23);
+$polar-green-4: rgb(59, 132, 22);
+$polar-green-5: rgb(70, 168, 24);
+$polar-green-6: rgb(106, 189, 58);
+$polar-green-7: rgb(142, 210, 95);
+$polar-green-8: rgb(178, 227, 139);
+$polar-green-9: rgb(211, 240, 185);
+
+// 明青
+$cyan-0: rgb(17, 32, 35);
+$cyan-1: rgb(16, 51, 53);
+$cyan-2: rgb(18, 69, 70);
+$cyan-3: rgb(19, 96, 96);
+$cyan-4: rgb(18, 131, 131);
+$cyan-5: rgb(18, 165, 165);
+$cyan-6: rgb(51, 186, 182);
+$cyan-7: rgb(87, 207, 198);
+$cyan-8: rgb(131, 224, 214);
+$cyan-9: rgb(176, 239, 230);
+
+// 拂晓蓝
+$daybreak-blue-0: rgb(17, 29, 45);
+$daybreak-blue-1: rgb(16, 41, 68);
+$daybreak-blue-2: rgb(20, 56, 89);
+$daybreak-blue-3: rgb(21, 74, 124);
+$daybreak-blue-4: rgb(22, 99, 171);
+$daybreak-blue-5: rgb(21, 123, 217);
+$daybreak-blue-6: rgb(61, 153, 230);
+$daybreak-blue-7: rgb(99, 182, 241);
+$daybreak-blue-8: rgb(141, 205, 247);
+$daybreak-blue-9: rgb(181, 224, 249);
+
+// 极客蓝
+$geek-blue-0: rgb(19, 22, 41);
+$geek-blue-1: rgb(22, 28, 63);
+$geek-blue-2: rgb(27, 38, 83);
+$geek-blue-3: rgb(31, 48, 116);
+$geek-blue-4: rgb(37, 61, 158);
+$geek-blue-5: rgb(42, 71, 200);
+$geek-blue-6: rgb(82, 114, 223);
+$geek-blue-7: rgb(127, 156, 240);
+$geek-blue-8: rgb(167, 191, 247);
+$geek-blue-9: rgb(208, 222, 248);
+
+// 酱紫
+$golden-purple-0: rgb(26, 19, 37);
+$golden-purple-1: rgb(35, 21, 57);
+$golden-purple-2: rgb(47, 27, 75);
+$golden-purple-3: rgb(61, 31, 102);
+$golden-purple-4: rgb(78, 36, 142);
+$golden-purple-5: rgb(98, 40, 179);
+$golden-purple-6: rgb(132, 78, 201);
+$golden-purple-7: rgb(169, 121, 222);
+$golden-purple-8: rgb(203, 166, 238);
+$golden-purple-9: rgb(233, 213, 248);
+
+// 法式洋红
+$magenta-0: rgb(41, 19, 32);
+$magenta-1: rgb(63, 21, 45);
+$magenta-2: rgb(83, 27, 59);
+$magenta-3: rgb(116, 31, 77);
+$magenta-4: rgb(158, 36, 103);
+$magenta-5: rgb(200, 42, 129);
+$magenta-6: rgb(222, 81, 155);
+$magenta-7: rgb(240, 126, 181);
+$magenta-8: rgb(246, 167, 203);
+$magenta-9: rgb(249, 208, 225);

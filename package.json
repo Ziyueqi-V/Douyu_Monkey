@@ -1,0 +1,19 @@
+{
+  "name": "douyu_monkey",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "(node bump.js) && (node ./src/generate.js)",
+    "watch": "nodemon",
+    "version": "npm run build",
+    "release": "bump --commit -a --push"
+  },
+  "keywords": [],
+  "author": "Sherlock-V",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "sass": "^1.63.2"
+  }
+}
