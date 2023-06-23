@@ -23,6 +23,8 @@
     '#js-player-title > div.Title > div.Title-roomInfo > div:nth-child(3)',
     // 房间信息, 热度
     '.Title-anchorHot',
+    // 房间信息, 友邻
+    '.Title-anchorFriendWrapper',
     // 礼物栏
     '#js-player-toolbar .ToolbarActivityArea',
     '#js-player-toolbar .PlayerToolbar-GiftWrap',
