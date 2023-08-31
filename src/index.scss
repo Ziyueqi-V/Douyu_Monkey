@@ -3,6 +3,6 @@
 }
 
 // 鱼吧帖子标题
-div[class^=index-listTitle] {
-  border-bottom: 2px solid greenyellow;
+div[class^=index-listTitle] a {
+  border-bottom: 2px solid rgba(86, 86, 87, .8);
 }
