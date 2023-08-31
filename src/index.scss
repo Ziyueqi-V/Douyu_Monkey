@@ -1,3 +1,8 @@
 .layout-Player-barrage.layout-Player-barrage {
   top: 0;
 }
+
+// 鱼吧帖子标题
+div[class^=index-listTitle] {
+  border-bottom: 2px solid greenyellow;
+}

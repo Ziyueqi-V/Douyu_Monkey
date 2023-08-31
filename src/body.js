@@ -8,7 +8,8 @@
   GM_addStyle(cssText);
 
   const style = document.createElement('style')
-  const hides = [
+  const hides = [c
+    // 导航栏 - 分类 - 视频 - 游戏
     '.public-DropMenu.Category',
     '.public-DropMenu.Video',
     '.public-DropMenu.Game',

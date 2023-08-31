@@ -2,7 +2,7 @@
 // @name         Douyu_Monkey
 // @name:cn      斗鱼猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.12
+// @version      0.0.13
 // @description  douyu beautify css injection script
 // @author       Sherlock-V
 // @match        https://douyu.com
@@ -20,11 +20,16 @@
   .layout-Player-barrage.layout-Player-barrage {
   top: 0;
 }
+
+div[class^=index-listTitle] {
+  border-bottom: 2px solid greenyellow;
+}
   `;
   GM_addStyle(cssText);
 
   const style = document.createElement('style')
-  const hides = [
+  const hides = [c
+    // 导航栏 - 分类 - 视频 - 游戏
     '.public-DropMenu.Category',
     '.public-DropMenu.Video',
     '.public-DropMenu.Game',
