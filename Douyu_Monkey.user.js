@@ -2,7 +2,7 @@
 // @name         Douyu_Monkey
 // @name:cn      斗鱼猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.13
+// @version      0.0.14
 // @description  douyu beautify css injection script
 // @author       Sherlock-V
 // @match        https://douyu.com
@@ -28,7 +28,7 @@ div[class^=index-listTitle] {
   GM_addStyle(cssText);
 
   const style = document.createElement('style')
-  const hides = [c
+  const hides = [
     // 导航栏 - 分类 - 视频 - 游戏
     '.public-DropMenu.Category',
     '.public-DropMenu.Video',
