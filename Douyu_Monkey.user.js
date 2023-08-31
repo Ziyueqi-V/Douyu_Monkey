@@ -2,7 +2,7 @@
 // @name         Douyu_Monkey
 // @name:cn      斗鱼猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.15
+// @version      0.0.16
 // @description  douyu beautify css injection script
 // @author       Sherlock-V
 // @match        https://douyu.com
@@ -23,6 +23,9 @@
 
 div[class^=index-listTitle] a {
   border-bottom: 2px solid rgba(86, 86, 87, 0.8);
+  border-left: 2px solid rgba(86, 86, 87, 0.8);
+  border-right: 2px solid rgba(86, 86, 87, 0.8);
+  border-radius: 3px;
 }
   `;
   GM_addStyle(cssText);
