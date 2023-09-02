@@ -9,3 +9,9 @@ div[class^=index-listTitle] a {
   border-right: 2px solid rgba(86, 86, 87, .8);
   border-radius: 3px;
 }
+
+// 播放器主体 位置调整60
+.layout-Main.layout-Main {
+  position: fixed;
+  top: 60px;
+}
