@@ -10,8 +10,8 @@ div[class^=index-listTitle] a {
   border-radius: 3px;
 }
 
-// 播放器主体 位置调整60
+// 播放器主体 位置调整
 .layout-Main.layout-Main {
   position: fixed;
-  top: 60px;
+  top: 60px; // 因为导航栏高度为固定60px
 }
