@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         Douyu_Monkey
-// @name:cn      斗鱼猴
+// @name:zh-CN   斗鱼猴
+// @name:zh-TW   鬥魚猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.17
+// @version      0.0.18
 // @description  douyu beautify css injection script
 // @author       Sherlock-V
 // @match        https://douyu.com
@@ -83,4 +84,63 @@ div[class^=index-listTitle] a {
   ].join('')
 
   document.body.appendChild(style)
+
+
+
+  const cookies = document.cookie;
+  // 可配多个主播房间号 每个房间每次送1个
+  const roomarr = [156277];
+
+  function send_ygb(roomid) {
+    let myHeaders = new Headers();
+    myHeaders.append("cookie", cookies);
+    myHeaders.append("referer", "https://www.douyu.com/" + roomid);
+
+    let requestOptions = {
+      method: 'GET',
+      headers: myHeaders,
+      redirect: 'follow'
+    };
+
+    fetch("https://www.douyu.com/japi/prop/backpack/web/v1?rid=" + roomid, requestOptions)
+      .then(response => response.json()).then(function (json) {
+        console.log(`roomid = ${roomid} 礼物种数: ${json.data.list.length}`);
+        if (json.data.list.length > 0) {
+          send_gifts(json.data.list, roomid);
+        }
+      })
+
+  }
+
+  function send_gifts(gifts, roomid) {
+    for (const gift of gifts) {
+      if (gift.id == 268) {
+        let myHeaders = new Headers();
+        myHeaders.append("cookie", cookies);
+        myHeaders.append("referer", "https://www.douyu.com/" + roomid);
+        let urlencoded = new URLSearchParams();
+        urlencoded.append("propId", "268");
+        console.log('荧光棒个数:', gift.count);
+        urlencoded.append("propCount", gift.count - 5); // 送1个, // gift.count);
+        urlencoded.append("roomId", roomid);
+        urlencoded.append("bizExt", "{\"yzxq\":{}}");
+        let requestOptions = {
+          method: 'POST',
+          headers: myHeaders,
+          body: urlencoded,
+          redirect: 'follow'
+        };
+        fetch("https://www.douyu.com/japi/prop/donate/mainsite/v1", requestOptions)
+          .then(response => response.text())
+          .then(console.log)
+          .catch(console.error);
+      }
+    }
+  }
+
+  (function () {
+    'use strict';
+    console.log('script loaded');
+    roomarr.map(roomid => send_ygb(roomid));
+  })();
 })();

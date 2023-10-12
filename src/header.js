@@ -1,8 +1,9 @@
 // ==UserScript==
 // @name         Douyu_Monkey
-// @name:cn      斗鱼猴
+// @name:zh-CN   斗鱼猴
+// @name:zh-TW   鬥魚猴
 // @namespace    http://tampermonkey.net/
-// @version      0.0.17
+// @version      0.0.18
 // @description  douyu beautify css injection script
 // @author       Sherlock-V
 // @match        https://douyu.com
